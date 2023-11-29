@@ -55,3 +55,12 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+---------
+
+# TODO:
+## Modèles à comparer
+- LLM : Mistral7B (open source)
+- Une approche en deux étapes qui utilise des résumés automatiques (en utilisant BERT) de nouvelles pour déterminer la position d'un titre par rapport au corps du texte qui lui est associé. L'approche utilise des techniques de résumé comme entrée pour les deux classificateurs au lieu du texte complet de l'article, ce qui réduit la quantité d'informations à traiter tout en conservant les informations importantes. 
+- Justifier les choix de modèles
